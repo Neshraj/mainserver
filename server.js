@@ -1,4 +1,18 @@
+const express = require('express');
 const axios = require('axios');
+
+const app = express();
+const port = 4000;
+
+app.use(express.json());
+app.use((req, res, next) => {
+  console.log(`[${new Date().toLocaleString()}] ${req.method} ${req.url}`);
+  next();
+});
+
+app.get('/', (req, res) => {
+  res.json({ message: 'ok!' });
+});
 
 const serverUrls = [
   "https://svpcettapserver.onrender.com",
@@ -18,5 +32,10 @@ const pingServers = () => {
       });
   });
 };
-setInterval(pingServers, 120000);
-pingServers();
+
+setInterval(pingServers, 60000);
+pingServers(); 
+
+app.listen(port, () => {
+  console.log(`Server is running at http://localhost:${port}`);
+});
