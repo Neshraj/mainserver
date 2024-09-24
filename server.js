@@ -15,6 +15,7 @@ app.get('/', (req, res) => {
 });
 
 const serverUrls = [
+  "https://mainserver-raj.onrender.com",
   "https://svpcettapserver.onrender.com",
   "https://instacloneserver-00mi.onrender.com",
   "https://sosgame-jnux.onrender.com",
