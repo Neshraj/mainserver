@@ -19,7 +19,8 @@ const serverUrls = [
   "https://svpcettapserver.onrender.com",
   "https://instacloneserver-00mi.onrender.com",
   "https://sosgame-jnux.onrender.com",
-  "https://meetchat.onrender.com"
+  "https://meetchat.onrender.com",
+  "https://collegedetailsserver.onrender.com"
 ];
 
 const pingServers = () => {
