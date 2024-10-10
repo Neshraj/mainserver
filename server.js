@@ -35,7 +35,7 @@ const pingServers = () => {
   });
 };
 
-setInterval(pingServers, 60000);
+//setInterval(pingServers, 60000);
 pingServers(); 
 
 app.listen(port, () => {
