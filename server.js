@@ -15,12 +15,12 @@ app.get('/', (req, res) => {
 });
 
 const serverUrls = [
-  "https://mainserver-raj1.onrender.com",
-  "https://svpcettapserver-raj1.onrender.com",
-  "https://instacloneserver-raj1.onrender.com",
-  "https://sosgames.onrender.com",
-  "https://meetchats.onrender.com",
-  "https://collegedetailsserver-raj1.onrender.com"
+"https://instacloneserver-raj1.onrender.com", 
+"https://collegedetailsserver-raj1.onrender.com", 
+"https://handleit-server.onrender.com", 
+"https://svpcettapserver-raj1.onrender.com", 
+"https://meetchats.onrender.com"
+
 ];
 
 const pingServers = () => {
