@@ -19,7 +19,9 @@ const serverUrls = [
 "https://collegedetailsserver-raj1.onrender.com", 
 "https://handleit-server.onrender.com", 
 "https://svpcettapserver-raj1.onrender.com", 
-"https://meetchats.onrender.com"
+"https://meetchats.onrender.com",
+"https://github.com/Neshraj/mainserver/blob/main/server.js",
+"http://encryptanddecrypt.onrender.com"
 
 ];
 
